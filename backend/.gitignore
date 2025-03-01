@@ -1,0 +1,59 @@
+## Laravel
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+/.env
+/.env.*
+/.vscode/
+/.idea/
+/.phpunit.result.cache
+/.sass-cache/
+/.cache/
+.DS_Store
+Thumbs.db
+
+## Logs & Debugging Files
+/storage/logs/*.log
+/storage/framework/
+/storage/oauth-private.key
+/storage/oauth-public.key
+/bootstrap/cache/
+
+## Composer & NPM Dependencies
+composer.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+## Build & IDE Files
+/public/hot
+/public/mix-manifest.json
+/public/js
+/public/css
+/public/build
+/.phpstorm.meta.php
+
+## Database
+/database/*.sqlite
+/database/*.sqlite3
+/database/seeders/*.sql
+
+## CI/CD & Testing
+/phpunit.xml
+/.github/
+/.husky/
+
+## Additional Files
+*.log
+*.pid
+*.seed
+*.swp
+*.swo
+
+## User Specific Files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
