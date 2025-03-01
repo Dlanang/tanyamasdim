@@ -39,11 +39,6 @@ pnpm-lock.yaml
 /database/*.sqlite3
 /database/seeders/*.sql
 
-## CI/CD & Testing
-/phpunit.xml
-/.github/
-/.husky/
-
 ## Additional Files
 *.log
 *.pid
